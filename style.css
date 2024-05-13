@@ -1,0 +1,369 @@
+body{
+	font-family: serif;
+	background-color:rgb(26, 25, 25);
+	width: 100%;
+}
+
+
+/*header*/
+header{
+	background-image: url(./img/header_img.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	 
+}
+
+
+.title{
+	font-family:sans-serif;
+	padding-left: 50px;
+	padding: 15px;
+	color:black;
+	background:Silver;
+	opacity: .5;
+}
+
+.title_in-block{
+	color: white;
+    font-size: 59px;
+    display: flex;
+    justify-content: end;
+    margin-right: 10%;
+    padding-top: 5%;
+    width: 1000px;
+    right: 0;
+    position: absolute;
+}
+.btn{
+	background-color: DarkRed;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+	font-family:sans-serif;
+	font-weight: 700;
+    display: flex;
+	justify-content: center;
+    width: 215px;
+    position: absolute;
+    right: 58em;
+    top: 27em;
+}
+.btn:hover{
+	transform: scale(1.1);
+ 
+}
+
+/*real_estate*/
+
+.real_estate-title{
+	display: flex;
+	justify-content: center;
+	color:white;
+	margin-top: 50px;
+	font-family:sans-serif ;
+}
+ 
+.block{
+	display: flex;
+	gap: 80px;
+	 
+}
+ .slider{
+	width: 1246px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 50px;
+ }
+ .slider-line{
+	width: 2492px;
+	display: flex;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+ }
+.card1{
+	background-image:url(./img/slide_img.png);
+	width:361px;
+	height:541px;
+}
+.card2{
+	background-image:url(./img/slide_img2.png);
+	width:361px;
+	height:541px;
+}
+.card3{
+	background-image:url(./img/slide_img3.png);
+	width:364px;
+	height:541px;
+}
+.card4{
+	background-image:url(./img/slide_img4.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:361px;
+	height:541px;
+}
+.card5{
+	background-image:url(./img/slide_img5.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:361px;
+	height:541px;
+}
+.card6{
+	background-image:url(./img/slide_img6.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:361px;
+	height:541px;
+}
+.card_title{
+	text-align: start;
+	margin-left: 20px;
+	color: white;
+	font-family: sans-serif;
+	margin-top: 20px;
+}
+.details{
+	border: 2px solid white;
+	border-radius: 5px;
+	color:white;
+	font-family: sans-serif;
+	padding: 10px;
+	width: 200px;
+	margin-left: 20px;
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+}
+.details:hover{
+	transform: scale(1.05);
+}
+.arrow_left{
+	cursor: pointer;
+	position: absolute;
+    z-index: 15;
+	left: 15px;
+    margin-top: 16em;
+}
+.arrow_left:hover{
+	transform: scale(1.05);
+}
+.arrow_right{
+	cursor: pointer;
+	position: absolute;
+    z-index:15 ;
+	right: 15px;
+	margin-top: 16em;
+}
+
+.arrow_right:hover{
+	transform: scale(1.05);
+}
+
+/*about us*/
+
+.about_us{
+	background-color:white;
+	padding-bottom: 50px;
+}
+
+.about_us-title{
+	display: flex;
+	justify-content: center;
+	color:black;
+	margin-top: 50px;
+	font-family:sans-serif ;
+	padding-top: 50px;
+}
+.description_block{
+	display: flex;
+	justify-content: center;
+	gap: 104px;
+	margin-top: 50px;
+	position: relative;
+}
+.img_block{
+	width: 384px;
+	height: 440px;
+}
+
+.desc{
+	width: 536px;
+	height: 196px;
+}
+.see_more{
+	margin-top: 30px;
+	display: block;
+	color:DarkRed;
+}
+.see_more:hover{
+	opacity: .5;
+}
+.inf{
+	position: absolute;
+	bottom:0
+}
+
+/*footer*/
+.Request_a-call{
+	display: flex;
+	justify-content: center;
+	color:white;
+	margin-top: 50px;
+	font-family:sans-serif ;
+	padding-top: 50px;
+}
+.request_form{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	margin: 0 auto;
+	display: flex;
+	gap: 80px;
+	position: relative;
+}
+.inp{
+	color:white;
+	font-family: sans-serif;
+	
+}
+.input_filed{
+	margin-bottom: 35px;
+	width: 250px;
+    height: 50px;
+
+}
+hr{
+	margin-bottom: 5px;
+	background-color:white;
+	height: 1px;
+}
+.text{
+	color:white;
+	resize: none;
+	border:1px solid white;
+	width: 296px;
+	height: 108px;
+	font-family: sans-serif;
+	display: block;
+	 caret-color: white !important;
+}
+.send{
+	width: 296px;
+	height: 50px;
+	background-color:DarkRed;
+	padding: 15px;
+	color:white;
+	font-family: sans-serif;
+	 margin-top: 40px;
+}
+.footer_title{
+	color:#EBEBEB;
+	font-family: sans-serif;
+	padding-left: 50px;
+	padding: 15px;
+}
+.social_block{
+	padding-right: 50px;
+	display: flex;
+	gap: 20px;
+	
+}
+.social:hover{
+	transform: scale(1.05);
+	opacity: .7;
+}
+.footer_block{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.modalWindow{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0px 0px 2px;
+    width: 500px;
+    height: 500px;
+    z-index: 20;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    height: 500px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 5px;
+}
+.backdrop{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 19;
+}
+
+.closeButton{
+	width: 296px;
+    height: 50px;
+    background-color: DarkRed;
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+.modal2{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0px 0px 2px;
+    width: 1200px;
+    height: 1200px;
+    z-index: 20;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    height: 500px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	display: none;
+	text-align: start;
+	overflow-y: scroll;
+	padding: 20px;
+	line-height:150%;
+}
+.x{
+	display: flex;
+	justify-content: end;
+	margin-right: 15px;
+	padding: 15px;
+	cursor: pointer;
+}
+.x:hover{
+	opacity: .7;
+}
+.modal2_title{
+	margin-top: 15px;
+	color:DarkRed;
+}
